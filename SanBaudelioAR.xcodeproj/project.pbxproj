@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		549AC26503542DC5B3F8CCA2 /* Pods_SanBaudelioARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D165E982C0A97286AAA31D /* Pods_SanBaudelioARUITests.framework */; };
+		98048AE30E16B93D98808CEC /* Pods_SanBaudelioAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E331B4E014A95C495B38A167 /* Pods_SanBaudelioAR.framework */; };
+		B17CE7548DDCC749278AF192 /* Pods_SanBaudelioARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33256B4A08F0326F2267D8D7 /* Pods_SanBaudelioARTests.framework */; };
 		E6D226BA21EE7AD8006F5CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D226B921EE7AD8006F5CA6 /* AppDelegate.swift */; };
 		E6D226BC21EE7AD8006F5CA6 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D226BB21EE7AD8006F5CA6 /* art.scnassets */; };
 		E6D226BE21EE7AD8006F5CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D226BD21EE7AD8006F5CA6 /* ViewController.swift */; };
 		E6D226C121EE7AD8006F5CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D226BF21EE7AD8006F5CA6 /* Main.storyboard */; };
-		E6D226C321EE7ADA006F5CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D226C221EE7ADA006F5CA6 /* Assets.xcassets */; };
-		E6D226C621EE7ADA006F5CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D226C421EE7ADA006F5CA6 /* LaunchScreen.storyboard */; };
 		E6D226D121EE7ADA006F5CA6 /* SanBaudelioARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D226D021EE7ADA006F5CA6 /* SanBaudelioARTests.swift */; };
 		E6D226DC21EE7ADA006F5CA6 /* SanBaudelioARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D226DB21EE7ADA006F5CA6 /* SanBaudelioARUITests.swift */; };
+		E6D226EA21EE7B6B006F5CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D226E921EE7B6B006F5CA6 /* Assets.xcassets */; };
+		E6D226EB21EE8504006F5CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D226C421EE7ADA006F5CA6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1567EB855A7E49F170D12012 /* Pods-SanBaudelioARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanBaudelioARTests.debug.xcconfig"; path = "Target Support Files/Pods-SanBaudelioARTests/Pods-SanBaudelioARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17F503A5F0CCE67692E6EE5A /* Pods-SanBaudelioARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanBaudelioARUITests.release.xcconfig"; path = "Target Support Files/Pods-SanBaudelioARUITests/Pods-SanBaudelioARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20D165E982C0A97286AAA31D /* Pods_SanBaudelioARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SanBaudelioARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33256B4A08F0326F2267D8D7 /* Pods_SanBaudelioARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SanBaudelioARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93940EC773759A623EB15C2A /* Pods-SanBaudelioARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanBaudelioARUITests.debug.xcconfig"; path = "Target Support Files/Pods-SanBaudelioARUITests/Pods-SanBaudelioARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		948CA067D885371453E52442 /* Pods-SanBaudelioAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanBaudelioAR.debug.xcconfig"; path = "Target Support Files/Pods-SanBaudelioAR/Pods-SanBaudelioAR.debug.xcconfig"; sourceTree = "<group>"; };
+		995B63A08F118344E179F3AA /* Pods-SanBaudelioARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanBaudelioARTests.release.xcconfig"; path = "Target Support Files/Pods-SanBaudelioARTests/Pods-SanBaudelioARTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D7C8C7C7B3342F853279417 /* Pods-SanBaudelioAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanBaudelioAR.release.xcconfig"; path = "Target Support Files/Pods-SanBaudelioAR/Pods-SanBaudelioAR.release.xcconfig"; sourceTree = "<group>"; };
+		E331B4E014A95C495B38A167 /* Pods_SanBaudelioAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SanBaudelioAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D226B621EE7AD8006F5CA6 /* SanBaudelioAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanBaudelioAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D226B921EE7AD8006F5CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D226BB21EE7AD8006F5CA6 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E6D226BD21EE7AD8006F5CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6D226C021EE7AD8006F5CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E6D226C221EE7ADA006F5CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D226C521EE7ADA006F5CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D226C721EE7ADA006F5CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6D226CC21EE7ADA006F5CA6 /* SanBaudelioARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanBaudelioARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +60,7 @@
 		E6D226D721EE7ADA006F5CA6 /* SanBaudelioARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanBaudelioARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D226DB21EE7ADA006F5CA6 /* SanBaudelioARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanBaudelioARUITests.swift; sourceTree = "<group>"; };
 		E6D226DD21EE7ADA006F5CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D226E921EE7B6B006F5CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98048AE30E16B93D98808CEC /* Pods_SanBaudelioAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17CE7548DDCC749278AF192 /* Pods_SanBaudelioARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549AC26503542DC5B3F8CCA2 /* Pods_SanBaudelioARUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF3FF636454A1BB0139DEFB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E331B4E014A95C495B38A167 /* Pods_SanBaudelioAR.framework */,
+				33256B4A08F0326F2267D8D7 /* Pods_SanBaudelioARTests.framework */,
+				20D165E982C0A97286AAA31D /* Pods_SanBaudelioARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6D226AD21EE7AD8006F5CA6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				E6D226CF21EE7ADA006F5CA6 /* SanBaudelioARTests */,
 				E6D226DA21EE7ADA006F5CA6 /* SanBaudelioARUITests */,
 				E6D226B721EE7AD8006F5CA6 /* Products */,
+				F410C7D5611DBBAA16486BD6 /* Pods */,
+				DF3FF636454A1BB0139DEFB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +130,7 @@
 				E6D226BB21EE7AD8006F5CA6 /* art.scnassets */,
 				E6D226BD21EE7AD8006F5CA6 /* ViewController.swift */,
 				E6D226BF21EE7AD8006F5CA6 /* Main.storyboard */,
-				E6D226C221EE7ADA006F5CA6 /* Assets.xcassets */,
+				E6D226E921EE7B6B006F5CA6 /* Assets.xcassets */,
 				E6D226C421EE7ADA006F5CA6 /* LaunchScreen.storyboard */,
 				E6D226C721EE7ADA006F5CA6 /* Info.plist */,
 			);
@@ -128,6 +155,20 @@
 			path = SanBaudelioARUITests;
 			sourceTree = "<group>";
 		};
+		F410C7D5611DBBAA16486BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				948CA067D885371453E52442 /* Pods-SanBaudelioAR.debug.xcconfig */,
+				9D7C8C7C7B3342F853279417 /* Pods-SanBaudelioAR.release.xcconfig */,
+				1567EB855A7E49F170D12012 /* Pods-SanBaudelioARTests.debug.xcconfig */,
+				995B63A08F118344E179F3AA /* Pods-SanBaudelioARTests.release.xcconfig */,
+				93940EC773759A623EB15C2A /* Pods-SanBaudelioARUITests.debug.xcconfig */,
+				17F503A5F0CCE67692E6EE5A /* Pods-SanBaudelioARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D226E021EE7ADA006F5CA6 /* Build configuration list for PBXNativeTarget "SanBaudelioAR" */;
 			buildPhases = (
+				64C33CDC3F61E08B0E5D2828 /* [CP] Check Pods Manifest.lock */,
 				E6D226B221EE7AD8006F5CA6 /* Sources */,
 				E6D226B321EE7AD8006F5CA6 /* Frameworks */,
 				E6D226B421EE7AD8006F5CA6 /* Resources */,
+				D0A528A1F18CBE39A0ADF912 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D226E321EE7ADA006F5CA6 /* Build configuration list for PBXNativeTarget "SanBaudelioARTests" */;
 			buildPhases = (
+				324753D6DE091356FB65C0F4 /* [CP] Check Pods Manifest.lock */,
 				E6D226C821EE7ADA006F5CA6 /* Sources */,
 				E6D226C921EE7ADA006F5CA6 /* Frameworks */,
 				E6D226CA21EE7ADA006F5CA6 /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D226E621EE7ADA006F5CA6 /* Build configuration list for PBXNativeTarget "SanBaudelioARUITests" */;
 			buildPhases = (
+				4243D26A91E413E33DA37B1C /* [CP] Check Pods Manifest.lock */,
 				E6D226D321EE7ADA006F5CA6 /* Sources */,
 				E6D226D421EE7ADA006F5CA6 /* Frameworks */,
 				E6D226D521EE7ADA006F5CA6 /* Resources */,
@@ -233,8 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6D226BC21EE7AD8006F5CA6 /* art.scnassets in Resources */,
-				E6D226C621EE7ADA006F5CA6 /* LaunchScreen.storyboard in Resources */,
-				E6D226C321EE7ADA006F5CA6 /* Assets.xcassets in Resources */,
+				E6D226EB21EE8504006F5CA6 /* LaunchScreen.storyboard in Resources */,
+				E6D226EA21EE7B6B006F5CA6 /* Assets.xcassets in Resources */,
 				E6D226C121EE7AD8006F5CA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +299,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		324753D6DE091356FB65C0F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SanBaudelioARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4243D26A91E413E33DA37B1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SanBaudelioARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64C33CDC3F61E08B0E5D2828 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SanBaudelioAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A528A1F18CBE39A0ADF912 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SanBaudelioAR/Pods-SanBaudelioAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SanBaudelioAR/Pods-SanBaudelioAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6D226B221EE7AD8006F5CA6 /* Sources */ = {
@@ -434,6 +570,7 @@
 		};
 		E6D226E121EE7ADA006F5CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948CA067D885371453E52442 /* Pods-SanBaudelioAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +589,7 @@
 		};
 		E6D226E221EE7ADA006F5CA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7C8C7C7B3342F853279417 /* Pods-SanBaudelioAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +608,7 @@
 		};
 		E6D226E421EE7ADA006F5CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1567EB855A7E49F170D12012 /* Pods-SanBaudelioARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +630,7 @@
 		};
 		E6D226E521EE7ADA006F5CA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995B63A08F118344E179F3AA /* Pods-SanBaudelioARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +652,7 @@
 		};
 		E6D226E721EE7ADA006F5CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93940EC773759A623EB15C2A /* Pods-SanBaudelioARUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +673,7 @@
 		};
 		E6D226E821EE7ADA006F5CA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F503A5F0CCE67692E6EE5A /* Pods-SanBaudelioARUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
